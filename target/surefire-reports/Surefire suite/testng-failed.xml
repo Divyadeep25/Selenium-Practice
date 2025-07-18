@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="objects.tests.ErrorValiationTest">
+        <methods>
+          <include name="LoginErrorValiation"/>
+          <include name="quitBrowser"/>
+          <include name="launchApplication"/>
+          <include name="ProductErrorValidation"/>
+        </methods>
+      </class> <!-- objects.tests.ErrorValiationTest -->
+      <class name="globalproperty.resources.loginTest">
+        <methods>
+          <include name="OrderList"/>
+          <include name="loginPage"/>
+          <include name="quitBrowser"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- globalproperty.resources.loginTest -->
+      <class name="objects.tests.StandaloneTest">
+        <methods>
+          <include name="loginPage"/>
+          <include name="OrderList"/>
+          <include name="quitBrowser"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- objects.tests.StandaloneTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
