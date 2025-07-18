@@ -9,7 +9,7 @@ import objects.Testcomponent.Retry;
 import objects.pageobjects.Cartopen;
 import objects.pageobjects.ProudctsList;
 
-public class ErrorValiationTest extends Basetest {
+public class ErrorValidationTest extends Basetest {
 
 	@Test(groups = { "ErrorHandling" })
 	public void LoginErrorValiation() throws InterruptedException {

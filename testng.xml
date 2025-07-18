@@ -2,9 +2,10 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Suite">
 
-<test name="Errorlogin">
+<test name="Testing Framework">
 <classes>
-<class name="testingerrors.errorlogin"/>
+<class name="objects.tests.ErrorValidationTest"/>
+<class name="objects.tests.StandaloneTest"/>
 </classes>
 </test>
 </suite> <!--Suite -->
